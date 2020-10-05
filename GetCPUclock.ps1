@@ -2,6 +2,8 @@
 
 # Source: https://www.remkoweijnen.nl/blog/2014/07/18/get-actual-cpu-clock-speed-powershell/
 
+## Note that this measures base CPU clock speed and not the current actual clock speed.
+
 # How many times to query clockspeed
 $count = 1
 # Interval in ms
